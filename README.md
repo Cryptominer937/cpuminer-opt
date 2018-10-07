@@ -1,7 +1,6 @@
-cpuminer-opt is a fork of cpuminer-multi by TPruvot with optimizations
-imported from other miners developped by lucas Jones, djm34, Wolf0, pooler,
-Jeff garzik, ig0tik3d, elmad, palmd, and Optiminer, with additional
-optimizations by Jay D Dee.
+cpuminer-opt is a fork of cpuminer-multi by TPruvot with optimizations imported from other miners developped by
+lucas Jones, djm34, Wolf0, pooler, Jeff garzik, ig0tik3d, elmad, palmd, and Optiminer, Jay D Dee
+with additional optimizations by: baz, Icemining.ca, Hash-Kings
 
 All of the code is believed to be open and free. If anyone has a
 claim to any of it post your case in the cpuminer-opt Bitcoin Talk forum
@@ -11,10 +10,6 @@ Miner programs are often flagged as malware by antivirus programs. This is
 a false positive, they are flagged simply because they are cryptocurrency 
 miners. The source code is open for anyone to inspect. If you don't trust 
 the software, don't use it.
-
-https://bitcointalk.org/index.php?topic=1326803.0
-
-mailto://jayddee246@gmail.com
 
 See file RELEASE_NOTES for change log and compile instructions.
 
@@ -51,6 +46,7 @@ Supported Algorithms
                           argon2d250    argon2d-crds, Credits (CRDS)
                           argon2d500    argon2d-dyn,  Dynamic (DYN)
                           argon2d4096   argon2d-uis, Unitus, (UIS)
+                          argon2ad      argon2d-urx, (URX)
                           axiom         Shabal-256 MemoHash
                           bastion
                           blake         Blake-256 (SFR)
@@ -122,6 +118,8 @@ Supported Algorithms
                           yescryptr8    BitZeny (ZNY)
                           yescryptr16   Yenten (YTN)
                           yescryptr32   WAVI
+                          yespower      
+                          yespowerr16   
                           zr5           Ziftr
 
 Errata
